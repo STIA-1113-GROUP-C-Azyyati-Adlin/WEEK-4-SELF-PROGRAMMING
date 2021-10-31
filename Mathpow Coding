@@ -1,0 +1,28 @@
+package selfProgramming;
+
+import java.math.*;
+import java.util.Scanner;
+
+public class Mathpow {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int a;
+        int b;
+        int c;
+        
+        Scanner scan = new Scanner (System.in);
+        
+        System.out.println("Enter the number : ");
+        a = scan.nextInt();
+        
+        System.out.println("Enter the power of the number : ");
+        b = scan.nextInt();
+        c = (int)Math.pow(a,b);
+        
+        System.out.println("The answer : " + c);
+        
+        scan.close();
+	}
+
+}
