@@ -1,0 +1,13 @@
+package selfProgramming;
+
+public class Mathsqrt {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        double num = 64.0;
+        
+        System.out.println(Math.sqrt(num));
+	}
+
+}
+
