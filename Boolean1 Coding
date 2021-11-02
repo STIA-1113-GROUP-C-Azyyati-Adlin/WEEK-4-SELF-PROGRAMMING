@@ -1,0 +1,16 @@
+package selfProgramming;
+
+public class Boolean {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        boolean amIpretty = true;
+        boolean amIhandsome = false;
+        
+        System.out.print("Am I pretty = ");
+        System.out.println(amIpretty);
+        
+        System.out.print("Am I handsome = ");
+        System.out.println(amIhandsome);
+	}
+}
