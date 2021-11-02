@@ -1,0 +1,28 @@
+Enter Your Name: 
+Azy
+Enter status : 
+Moderate
+Enter quiz : 
+30
+Enter labtest : 
+40
+Enter assignment : 
+50
+Enter project : 
+60
+Enter grade : 
+D
+
+================================
+ Student Information 
+================================
+Student Name: Azy
+Quiz =30/100
+Lab test =40/100
+Assignment = 50/100
+Project = 60/100
+Total Marks is = 48.00
+Total Marks is 48.0
+
+Grade : D
+Status : Moderate
