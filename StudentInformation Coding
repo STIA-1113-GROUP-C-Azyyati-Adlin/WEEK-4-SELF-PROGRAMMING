@@ -1,0 +1,55 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class StudentInformation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    
+       Scanner scan = new Scanner (System.in);
+    
+        System.out.println("Enter Your Name: ");
+        String studentname = scan.nextLine();
+        
+        System.out.println("Enter status : ");
+        String status = scan.nextLine();
+        
+        System.out.println("Enter quiz : ");
+        int quiz = scan.nextInt();
+        
+        System.out.println("Enter labtest : ");
+        int labtest = scan.nextInt();
+        
+        System.out.println("Enter assignment : ");
+        int assignment = scan.nextInt();
+        
+        System.out.println("Enter project : ");
+        int project = scan.nextInt();
+           
+        System.out.println("Enter grade : ");
+        char grade = scan.next().charAt(0);
+  
+        double totalmark;
+        
+        System.out.println();
+        System.out.println("================================");
+        System.out.println(" Student Information ");
+        System.out.println("================================");
+        System.out.println("Student Name: " + studentname);
+        System.out.println("Quiz =" + quiz + "/100");
+        System.out.println("Lab test =" + labtest + "/100");
+        System.out.println("Assignment = " + assignment + "/100");
+        System.out.println("Project = " + project + "/100");
+      
+        totalmark = (quiz*0.15) + (labtest*0.2) + (assignment*0.35) + (project*0.3);
+        
+         System.out.printf("Total Marks is = %.2f" , totalmark);
+         System.out.println();
+         System.out.println("Total Marks is " + totalmark);
+         System.out.println();
+         System.out.println("Grade : " + grade);
+         System.out.println("Status : " + status);
+         System.out.println();
+	}
+}
